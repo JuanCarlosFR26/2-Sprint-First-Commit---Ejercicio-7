@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f8f8f9;
+}
+
+.form {
+    position: relative;
+    width: 500px;
+    height: 764px;
+    background: #ffffff;
+    border: 1px solid #e6e6ea;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+/*INPUTS*/
+.inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.inputs > label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121625;
+    letter-spacing: -0.01em;
+}
+
+.inputs > label:first-child {
+    margin-left: 20px;
+}
+
+.inputs > label:nth-child(3) {
+    margin-left: 20px;
+}
+
+.inputs > label:nth-child(5) {
+    position: relative;
+    left: 258px;
+    bottom: 68px;
+}
+
+.inputs > label:nth-child(7) {
+    margin-left: 20px;
+    position: relative;
+    bottom: 45px;
+}
+
+.inputs > label:nth-child(9) {
+    position: relative;
+    left: 258px;
+    bottom: 100px;
+}
+
+.inputs > label:nth-child(11) {
+    position: relative;
+    left: 20px;
+    bottom: 65px;
+}
+
+.inputs > label:nth-child(13) {
+    position: relative;
+    left: 258px;
+    bottom: 120px;
+}
+
+.inputs > label:nth-child(15) {
+    position: relative;
+    left: 20px;
+    bottom: 80px;
+}
+
+.inputs > label:nth-child(18) {
+    position: relative;
+    left: 20px;
+    bottom: 85px;
+}
+
+.inputs > input[id='name'] {
+    width: 450px;
+    height: 40px;
+    border: none;
+    background-color: #f8f8f9;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputs > input[id='tel'] {
+    display: inline-flex;
+    width: 214px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #f8f8f9;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+.inputs > input[id='email'] {
+    display: inline-flex;
+    width: 214px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #f8f8f9;
+    margin-top: 12px;
+    position: relative;
+    left: 258px;
+    bottom: 68px;
+}
+
+.inputs > select[name='pais'] {
+    width: 214px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 30px;
+    left: 23px;
+}
+
+.inputs > select[name='ciudad'] {
+    width: 214px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 86px;
+    left: 258px;
+}
+
+.inputs > select[name='traslado']{
+    width: 214px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 50px;
+    left: 23px;
+}
+
+.inputs > select[name='presencialidad'] {
+    width: 214px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 106px;
+    left: 258px;
+}
+
+.inputs > input[id='documento']{
+    width: 214px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 65px;
+    left: 23px;
+    background-color: #a5a8b3;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.inputs > #btn {
+    width: 101px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6ea;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    padding: 5px 14px 5px 10px;
+    position: relative;
+    bottom: 105px;
+    left: 250px;
+}
+
+.inputs > input[id='etiquetas'] {
+    width: 450px;
+    height: 40px;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: none;
+    position: relative;
+    bottom: 65px;
+    left: 23px;
+}
+
+.inputs > .ticks {
+    width: 250px;
+    position: relative;
+    bottom: 60px;
+    left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs > .ticks > p {
+    margin: 4px 2px;
+    background-color: #e6e6ea;
+    border-radius: 20px;
+    width: 106px;
+    height: 24px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.inputs > .ticks > p > i {
+    margin-left: 5px;
+}
+
+

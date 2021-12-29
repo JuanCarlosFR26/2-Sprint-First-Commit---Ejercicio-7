@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 20px 20px;
+}
+
+.header > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    outline: 4px solid #e6e6ea;
+}
+
+.header > p {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.header > span {
+    position: absolute;
+    top: 66px;
+    left: 149px;
+    color: #a5a8b3;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header > span > i {
+    margin-right: 4px;
+}
